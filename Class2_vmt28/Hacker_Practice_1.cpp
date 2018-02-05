@@ -23,28 +23,32 @@ private:
 public:
     // Solve the roots using double
     void solveDouble() {
+        cout << "The size of double is:" << sizeof(double) << endl;
+                
         double first_first = (-b + sqrt(pow(b, 2) - 4*a*c))/(2*a);
         double first_second = (-b - sqrt(pow(b, 2) - 4*a*c))/(2*a);
         double second_first = 2*c/(-b + sqrt(pow(b, 2) - 4*a*c));
         double second_second = 2*c/(-b - sqrt(pow(b, 2) - 4*a*c));
         
-        cout << "The result of first root from first method is:" << first_first << endl;
-        cout << "The result of second root from first method is:" << first_second << endl;
-        cout << "The result of first root from second method is:" << second_first << endl;
-        cout << "The result of second root from second method is:" << second_second << endl;
+        cout << "The result of first root using double from first method is:" << first_first << endl;
+        cout << "The result of second root using double from first method is:" << first_second << endl;
+        cout << "The result of first root using double from second method is:" << second_first << endl;
+        cout << "The result of second root using double from second method is:" << second_second << endl;
     }
     
     // Solve the roots using long double
     void solveLongDouble() {
+        cout << "The size of long double is:" << sizeof(long double) << endl;
+                
         long double first_first = (-b + sqrt(pow(b, 2) - 4*a*c))/(2*a);
         long double first_second = (-b - sqrt(pow(b, 2) - 4*a*c))/(2*a);
         long double second_first = 2*c/(-b + sqrt(pow(b, 2) - 4*a*c));
         long double second_second = 2*c/(-b - sqrt(pow(b, 2) - 4*a*c));
         
-        cout << "The result of first root from first method is:" << first_first << endl;
-        cout << "The result of second root from first method is:" << first_second << endl;
-        cout << "The result of first root from second method is:" << second_first << endl;
-        cout << "The result of second root from second method is:" << second_second << endl;
+        cout << "The result of first root using long double from first method is:" << first_first << endl;
+        cout << "The result of second root using long double from first method is:" << first_second << endl;
+        cout << "The result of first root using long double from second method is:" << second_first << endl;
+        cout << "The result of second root using long double from second method is:" << second_second << endl;
     }
     
     // constructor
