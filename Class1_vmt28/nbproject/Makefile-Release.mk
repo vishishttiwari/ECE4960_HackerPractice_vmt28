@@ -35,7 +35,8 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
-	${OBJECTDIR}/Hacker_Practice_1.o
+	${OBJECTDIR}/Hacker_Practice_1.o \
+	${OBJECTDIR}/Hacker_Practice_2.o
 
 
 # C Compiler Flags
@@ -66,6 +67,11 @@ ${OBJECTDIR}/Hacker_Practice_1.o: Hacker_Practice_1.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Hacker_Practice_1.o Hacker_Practice_1.cpp
+
+${OBJECTDIR}/Hacker_Practice_2.o: Hacker_Practice_2.cpp
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Hacker_Practice_2.o Hacker_Practice_2.cpp
 
 # Subprojects
 .build-subprojects:

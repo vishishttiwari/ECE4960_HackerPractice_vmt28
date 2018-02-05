@@ -2,7 +2,7 @@
  * File:   Hacker_Practice_2.cpp
  * Author: Vishisht
  *
- * Created on February 4, 2018, 11:31 PM
+ * Created on February 4, 2018, 11:53 PM
  */
 #include <iostream>
 #include <math.h>
@@ -16,39 +16,31 @@ using namespace std;
 
 class Hacker_Practice_1{
 private:
-    double factorialLimit;
     
 public:
-    // Solve factorial with double
-    void calculateFactorialDouble() {
-        double factorial = factorialLimit;
-        for (int i = factorialLimit - 1; i >= 1; i--) {
-            factorial *= i;
-            cout << "Factorial in iteration " << factorialLimit - i << " is:" << factorial << endl;
-        }
-    }
-    
-    // Solve factorial with long double
-    void calculateFactorialLongDouble() {
-        long double factorial = factorialLimit;
-        for (int i = factorialLimit - 1; i >= 1; i--) {
-            factorial *= i;
-            cout << "Factorial in iteration " << factorialLimit - i << " is:" << factorial << endl;
-        }
-    }
-    
-    // constructor
-    Hacker_Practice_1(double factorialLimit = 200){
-        this->factorialLimit = factorialLimit;
+    // Sizes of data types
+    void checkDataTypeSizes() {
+        cout << "The size of short int is:" << sizeof(short int) << endl;
+        cout << "The size of unsigned short int is:" << sizeof(unsigned short int) << endl;
+        cout << "The size of unsigned int is:" << sizeof(unsigned int) << endl;
+        cout << "The size of int is:" << sizeof(int) << endl;
+        cout << "The size of long int is:" << sizeof(long int) << endl;
+        cout << "The size of unsigned long int is:" << sizeof(unsigned long int) << endl;
+        cout << "The size of long long int is:" << sizeof(long long int) << endl;
+        cout << "The size of unsigned long long int is:" << sizeof(unsigned long long int) << endl;
+        cout << "The size of signed char is:" << sizeof(signed char) << endl;
+        cout << "The size of unsigned char is:" << sizeof(unsigned char) << endl;
+        cout << "The size of float is:" << sizeof(float) << endl;
+        cout << "The size of double is:" << sizeof(double) << endl;
+        cout << "The size of long double is:" << sizeof(long double) << endl;
     }
 };
 
 // Change to main function when implementing this program
-int main(){
+int callingFunction1(){
     // Create the first object
     Hacker_Practice_1 *first = new Hacker_Practice_1();
-    first->calculateFactorialDouble();
-    first->calculateFactorialLongDouble();
+    first->checkDataTypeSizes();
     
     return 0;
 }
