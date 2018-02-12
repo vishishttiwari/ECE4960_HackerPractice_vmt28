@@ -33,36 +33,40 @@ public:
             cout << "With h:" << h << " The derivative is: " << derivation << " and the error is: " << derivation - 2 << endl;
             h /= 10;
         }
+        cout << endl;
     }
     
     void checkOneDerivativeWithLowPrecision() {
         double derivation;
         double h = 0.1;
         for (int i = 0; i < 20; i++) {
-            derivation = ((pow((1+h),2) + pow(10,10) - 1 - pow(10,10))/h);
+            derivation = ((pow((1+h),2) + pow(10,8) - 1 - pow(10,8))/h);
             cout << "With h:" << h << " The derivative is: " << derivation << " and the error is: " << derivation - 2 << endl;
             h /= 10;
         }
+        cout << endl;
     }
     
     void checkTwoDerivative() {
         double derivation;
         double h = 0.1;
         for (int i = 0; i < 20; i++) {
-            derivation = ((pow((1+h),2) - pow((1-h),2))/2 * h);
+            derivation = (pow((1+h),2) - pow((1-h),2))/(2 * h);
             cout << "With h:" << h << " The derivative is: " << derivation << " and the error is: " << derivation - 2 << endl;
             h /= 10;
         }
+        cout << endl;
     }
     
     void checkTwoDerivativeWithLowPrecision() {
         double derivation;
         double h = 0.1;
         for (int i = 0; i < 20; i++) {
-            derivation = ((pow((1+h),2) + pow(10,10)- pow((1-h),2) - pow(10,10))/2 * h);
+            derivation = (pow((1+h),2) + pow(10,8)- pow((1-h),2) - pow(10,8))/(2 * h);
             cout << "With h:" << h << " The derivative is: " << derivation << " and the error is: " << derivation - 2 << endl;
             h /= 10;
         }
+        cout << endl;
     }
 };
 

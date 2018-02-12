@@ -22,8 +22,8 @@ public:
     void firstO() {
         double derivation;
         double h = pow(2,-4);
-        for (int i = 0; i < 7; i++) {
-            derivation = ((pow((1+h),3) - 1)/h);
+        for (int i = 0; i < 40; i++) {
+            derivation = (pow((1+h),3) - 1)/h;
             cout << "With h:" << h << " The derivative is: " << derivation << " and the error is: " << derivation - 3 << endl;
             h /= 10;
         }
@@ -33,7 +33,7 @@ public:
     void secondO() {
         double derivation;
         double h = pow(2,-4);
-        for (int i = 0; i < 7; i++) {
+        for (int i = 0; i < 40; i++) {
             derivation = (pow(1+(2*h),3) - 1)/(2*h);
             cout << "With h:" << h << " The derivative is: " << derivation << " and the error is: " << derivation - 3 << endl;
             h /= 10;
@@ -44,8 +44,8 @@ public:
     void thirdO() {
         double derivation;
         double h = pow(2,-4);
-        for (int i = 0; i < 7; i++) {
-            derivation = -pow((1+(2*h)),3)/(2*h) + -3/(2*h) + (2*pow((1+h),3))/h;
+        for (int i = 0; i < 40; i++) {
+            derivation = -pow((1+(2*h)),3)/(2*h) - 3/(2*h) + (2*pow((1+h),3))/h;
             cout << "With h:" << h << " The derivative is: " << derivation << " and the error is: " << derivation - 3 << endl;
             h /= 10;
         }
