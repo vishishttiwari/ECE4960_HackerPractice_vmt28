@@ -42,11 +42,12 @@ Contributor(s):
     <type>org.netbeans.modules.cnd.makeproject</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/make-project/1">
-            <name>Assignment_1</name>
+            <name>Class4_vmt28</name>
             <make-project-type>0</make-project-type>
             <c-extensions/>
-            <cpp-extensions>cc</cpp-extensions>
+            <cpp-extensions>cpp</cpp-extensions>
             <header-extensions/>
+            <sourceEncoding>UTF-8</sourceEncoding>
             <make-dep-projects/>
             <sourceRootList/>
             <confList>
@@ -59,7 +60,6 @@ Contributor(s):
                     <type>1</type>
                 </confElem>
             </confList>
-            <sourceEncoding>UTF-8</sourceEncoding>
             <formatting>
                 <project-formatting-style>false</project-formatting-style>
             </formatting>
