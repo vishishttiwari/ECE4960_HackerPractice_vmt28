@@ -129,7 +129,7 @@ public:
 };
 
 // Change to main function when implementing this program
-int main(){
+int calling_Function_3(){
     // Create the first object
     double Atemp[5][5] = {{1.0,2.0,0,0,3.0},{4.0,5.0,6.0,0,0},{0,7.0,8.0,0,9.0},{0,0,0,10.0,0},{11.0,0,0,0,12.0}};
     
