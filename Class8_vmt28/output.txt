@@ -1,11 +1,4 @@
-{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf200
-{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\margl1440\margr1440\vieww24820\viewh11080\viewkind0
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
-
-\f0\fs24 \cf0 \'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97Hacker Practice 6.1\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\
+---------------------------------------------Hacker Practice 6.1---------------------------------------------
 Delta t:  0.5\
 t: 0 Backward Euler Error: 0.333333 Trapezoidal Euler Error: 0.4\
 t: 0.5 Backward Euler Error: 0.162086 Trapezoidal Euler Error: 0.246531\
@@ -249,9 +242,7 @@ t: 19.6 Backward Euler Error: 3.93388e-09 Trapezoidal Euler Error: 3.37984e-10\
 t: 19.7 Backward Euler Error: 3.58933e-09 Trapezoidal Euler Error: 3.06027e-10\
 t: 19.8 Backward Euler Error: 3.27486e-09 Trapezoidal Euler Error: 2.77092e-10\
 t: 19.9 Backward Euler Error: 2.98786e-09 Trapezoidal Euler Error: 2.50892e-10\
-\
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
-\cf0 \'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97Hacker Practice 6.2\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\
+---------------------------------------------Hacker Practice 6.2---------------------------------------------
 t: 0    xTrue: 2\
 Forward Euler X: 2      Error: 0%\
 Huen No Iteration X: 2  Error: 0%\
@@ -273,7 +264,7 @@ Forward Euler X: 56.8493        Error: 24.542%\
 Huen No Iteration X: 83.34        Error: 10.6290%\
 Huen Iterative X: 77.7351       Error: 3.18047%\
 \
-\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97Hacker Practice 6.3\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\
+---------------------------------------------Hacker Practice 6.3---------------------------------------------
 t:1     xTrue: 6.19463  k1: 3   k2: 4.2173      k3: 3.91297     k4: 5.94568     xRK4: 6.20104   Error: 0.103407%\
 t:2     xTrue: 14.8439  k1: 5.80165     k2: 8.72954     k3: 7.99756     k4: 12.7128     xRK4: 14.8625   Error: 0.125046%\
 t:3     xTrue: 33.6772  k1: 12.3809     k2: 19.0298     k3: 17.3675     k4: 27.9777     xRK4: 33.7213   Error: 0.131176%\
