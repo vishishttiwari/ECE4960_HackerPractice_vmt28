@@ -60,7 +60,7 @@ int main(int argc, char** argv) {
     
     cout << "*************************************************" << endl;
     
-    cout << "***************Hacker_Practice_5_4***************" << endl;
+    cout << "***************Hacker_Practice_5_6***************" << endl;
     
     Hacker_Practice_5_6 *sixth = new Hacker_Practice_5_6();
     cout << "***************(1,1)***************" << endl;
